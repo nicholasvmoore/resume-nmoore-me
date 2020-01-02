@@ -1,0 +1,234 @@
+{
+  "basics": {
+    "name": "Nicholas Moore",
+    "label": "Cloud Systems Architect",
+    "picture": "",
+    "email": "nicholasvmoore@gmail.com",
+    "phone": "334.246.1637",
+    "website": "http://www.moorenix.com",
+    "summary": "Nick hails from Pensacola, Florida. He has earned a degree in Information Technology from the University of West Florida.",
+    "location": {
+      "address": "2066 Staff Dr.",
+      "postalCode": "FL 32533",
+      "city": "Cantonment",
+      "countryCode": "US",
+      "region": "Florida"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "nicholasvmoore",
+        "url": "https://github.com/nicholasvmoore"
+      },
+      {
+        "network": "Twitter",
+        "username": "@diamondice00085",
+        "url": "https://twitter.com/diamondice00085"
+      },
+      {
+        "network": "Facebook",
+        "username": "nicholasvmoore",
+        "url": "https://facebook.com/nicholasvmoore"
+      },
+      {
+        "network": "Linkedin",
+        "username": "nicholasvmoore",
+        "url": "https://www.linkedin.com/in/nicholasvmoore/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Livingston International",
+      "position": "Sr. Systems Architect",
+      "website": "http://www.livingstonintl.com",
+      "startDate": "2015",
+      "endDate": "Present",
+      "summary": "Provide architectural & technical guidance on AWS Cloud & On Premises environments for enterprise.",
+      "highlights": [
+        "Created Livingston International's AWS cloud footprint growing to >20 accounts across 4 regions.",
+        "Architected the Tradesphere Next Generation full CI/CD workflow with Jenkins, CodeCommit, CodePipeline & CodeBuild.",
+        "Multi-AZ VPC, Transit Gateway, Direct Connect, DMVPN Backup to on-prem.",
+        "SSO Federation with PingFederate & IAM Roles",
+        "ECS on EC2 & Fargate",
+        "CloudFormation template design",
+        "Deployed 6x Cisco UCS Failure Domains with 2 Chassis each",
+        "HPE Nimble HF & AF SAN",
+        "Cisco MDS 9000 storage fabric",
+        "Re-designed the corporate Oracle footprint in AWS with RDS & EC2 where necessary",
+        "Re-designed the enterprise financial accounting Oracle database in AWS on EC2 with GP2 backed ASM striped storage.",
+        "Re-designed the enterprise BigData Cloudera Hadoop infrastructure & integrated Kerberos interaction with Active Directory",
+        "Migrated & Decommissioned 6+ disparate data centers into DC3 & TR2 on Cisco UCS",
+        "Deployed a Zabbix monitoring environment with 2000+ hosts and proxies at edge locations",
+        "Worked with gathering requirements from several product development teams and architected a robust, highly available platforms for which product lines would be hosted and accessed by customers."
+      ]
+    },
+    {
+      "company": "Health Information Designs",
+      "position": "Sr. Systems Engineer",
+      "website": "http://hidesigns.com/",
+      "startDate": "2014",
+      "endDate": "2015",
+      "summary": "Design & Architect a converged VMWare ESXi environment to replace the legacy single server hypervisors in an effort to reduce costs and improve reliability.",
+      "highlights": [
+        "Designed new clustered virtualization infrastructure to eliminate single points of failure.",
+        "Completed cloud feasibility study with multiple cloud and IAAS vendors to determine if it made financial sense to migrate from on premise equipment into the cloud.",
+        "Designed new Active Directory implementation to replace aging and misconfigured Active Directory",
+        "Implemented disaster recovery plan and automation with HID’s two largest products.",
+        "Implemented an external node classifier (theforeman) to automate the PXE booting of VMware guest machines, physical servers and AWS EC2 Instances."
+      ]
+    },
+    {
+      "company": "Transaction Network Services",
+      "position": "Systems Administrator",
+      "website": "http://www.tnsi.com/",
+      "startDate": "2012",
+      "endDate": "2014",
+      "summary": "Provide support to the needs and requirements of the Global Systems group at TNSI. Contributed a new method of Systems Administration at TNSI that proved to speed up deployment of Linux systems across the enterprise and promoted the use of documentation to catalog the deployment of server functions for future automation. Advocated for the use of Industry Standards and Practices. Promoted the creation of Enterprise specific Standards and Practices in an effort promote stability and efficiency throughout the Infrastructure.",
+      "highlights": [
+        "PXE boot RHEL/CentOS Build Automation.",
+        "Deployed Foreman ENC Puppet configuration management.",
+        "Deployed Katello Local RPM Repository",
+        "Automated the Linux patch management cycle.",
+        "Completed a Datacenter migration using Zerto.",
+        "Deployed an SVN code repo.",
+        "Designed a geographically diverse stratum 1 NTP deployment using ntpd and GPS.",
+        "Deployed Public & Private ROOT BIND9 nameservers (dns{1,2,3,4}.tnsi.com) with RNDC replication with hidden master and public slaves."
+      ]
+    },
+    {
+      "company": "Northrop Grumman Corporation",
+      "position": "Software Developer Analyst II",
+      "website": "https://www.northropgrumman.com.com/",
+      "startDate": "2008",
+      "endDate": "2012",
+      "summary": "Designed, Built and Maintained several enterprise environments including the MyNGC Enterprise Reverse Proxy, Enterprise Wiki, MyNGC SharePoint Portal, External PartnerConnect Microsoft TMG/UAG.",
+      "highlights": [
+        "FIPS 140-2 compliant custom compiled Apache Reverse Proxies.",
+        "Deployed the enterprise MediaWiki with over 50,000 users and 200,000 articles for internal documentation.",
+        "Deployed \"PartnerConnect\" with Microsoft's Forefront Threat Management Gateway & Unified Access Gateway.",
+        "Deployed \"myngc\" Enterprise portal on Microsoft SharePoint Server."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of West Florida",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2003",
+      "endDate": "2007"
+    },
+    {
+      "institution": "University of West Florida",
+      "area": "General Studies",
+      "studyType": "Associate",
+      "startDate": "2003",
+      "endDate": "2005"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical Competencies",
+      "level": "Master",
+      "keywords": [
+        "Linux/BSD/Windows/MAC",
+        "Packer",
+        "Terraform",
+        "Ansible",
+        "Docker",
+        "ectD",
+        "Flannel",
+        "Dual-Stack IPv4 & IPv6",
+        "GlusterFS",
+        "Kerberos",
+        "Grafana",
+        "Zabbix",
+        "Zerto",
+        "PowerShell"
+      ]
+    },
+    {
+      "name": "Cloud Architecture",
+      "level": "Master",
+      "keywords": [
+        "AWS:IAM",
+        "AWS:CloudFormation",
+        "AWS:VPC",
+        "AWS:TransitGateway",
+        "AWS:EC2",
+        "AWS:RDS",
+        "AWS:ALB",
+        "AWS:ClassicELB",
+        "AWS:NLB",
+        "AWS:Route53",
+        "AWS:EMR",
+        "AWS:S3",
+        "AWS:CertificateManager",
+        "AWS:CloudFront",
+        "AWS:DirectConnect",
+        "AWS:ElasticSearchService",
+        "AWS:EFS",
+        "cfn-init"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Master",
+      "keywords": [
+        "Jenkins",
+        "AWS:CodeBuild",
+        "AWS:CodePipeline",
+        "AWS:CodeCommit"
+      ]
+    },
+    {
+      "name": "On-Premises Architecture",
+      "level": "Master",
+      "keywords": [
+        "VMWawre",
+        "Cisco UCS",
+        "Cisco MDS",
+        "Cisco Meraki",
+        "HPE Nimble",
+        "KVM",
+        "Citrix XEN",
+        "Ubiquiti Unifi"
+      ]
+    },
+    {
+      "name": "VMWare",
+      "level": "Master",
+      "keywords": [
+        "ESXi",
+        "vCenter",
+        "Horizon",
+        "vROPS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Ham Radio"
+    },
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Hiking", "Climbing", "Mountain Biking", "Swimming", "Photography"
+      ]
+    },
+    {
+      "name": "Travel"
+    },
+    {
+      "name": "Stock & Options Trading"
+    }
+  ]
+}
