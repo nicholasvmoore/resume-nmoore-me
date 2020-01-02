@@ -28,7 +28,7 @@ phases:
 
   build:
     commands:
-      - resume export public/index.html
+      - resume export public/index.html --theme elegant
 
   post_build:
     commands:
