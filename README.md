@@ -7,6 +7,7 @@ My resume is created using the [JSON Resume Schema](https://jsonresume.org/schem
 Installation of the dependencies can be handled through NVM running node `lts/erbium`.
 
 ```bash
+npm config set puppeteer_skip_chromium_download true -g
 npm install -g resume-cli jsonresume-theme-elegant
 
 # Initialize
