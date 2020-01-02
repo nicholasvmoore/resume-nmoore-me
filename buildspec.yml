@@ -5,7 +5,7 @@ phases:
     runtime-versions:
         nodejs: 12
     commands:
-      - npm install -g resume-cli
+      - npm install -g resume-cli jsonresume-theme-elegant
       - npm install
       - cd $CODEBUILD_SRC_DIR 
       - aws ssm get-parameter --name moorenix-com-cicd --with-decryption --region us-east-1 --query Parameter.Value --output text > /root/.ssh/id_rsa 
@@ -20,10 +20,15 @@ phases:
       - git submodule init 
       - git submodule update --init --recursive
 
+  pre_build:
+    commands:
+      - mkdir public
+      - resume test
+
   build:
     commands:
-      - hexo generate
+      - resume export public/index.html
 
   post_build:
     commands:
-      - cd public/ && aws s3 sync . s3://www.moorenix.com/ --delete --size-only 
+      - cd public/ && aws s3 sync . s3://resume.moorenix.com/ --delete --size-only

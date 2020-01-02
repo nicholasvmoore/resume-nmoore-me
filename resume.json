@@ -42,8 +42,7 @@
       "company": "Livingston International",
       "position": "Sr. Systems Architect",
       "website": "http://www.livingstonintl.com",
-      "startDate": "2015",
-      "endDate": "Present",
+      "startDate": "2015-01-01",
       "summary": "Provide architectural & technical guidance on AWS Cloud & On Premises environments for enterprise.",
       "highlights": [
         "Created Livingston International's AWS cloud footprint growing to >20 accounts across 4 regions.",
@@ -67,8 +66,8 @@
       "company": "Health Information Designs",
       "position": "Sr. Systems Engineer",
       "website": "http://hidesigns.com/",
-      "startDate": "2014",
-      "endDate": "2015",
+      "startDate": "2014-01-01",
+      "endDate": "2015-01-01",
       "summary": "Design & Architect a converged VMWare ESXi environment to replace the legacy single server hypervisors in an effort to reduce costs and improve reliability.",
       "highlights": [
         "Designed new clustered virtualization infrastructure to eliminate single points of failure.",
@@ -82,8 +81,8 @@
       "company": "Transaction Network Services",
       "position": "Systems Administrator",
       "website": "http://www.tnsi.com/",
-      "startDate": "2012",
-      "endDate": "2014",
+      "startDate": "2012-01-01",
+      "endDate": "2014-02-01",
       "summary": "Provide support to the needs and requirements of the Global Systems group at TNSI. Contributed a new method of Systems Administration at TNSI that proved to speed up deployment of Linux systems across the enterprise and promoted the use of documentation to catalog the deployment of server functions for future automation. Advocated for the use of Industry Standards and Practices. Promoted the creation of Enterprise specific Standards and Practices in an effort promote stability and efficiency throughout the Infrastructure.",
       "highlights": [
         "PXE boot RHEL/CentOS Build Automation.",
@@ -100,8 +99,8 @@
       "company": "Northrop Grumman Corporation",
       "position": "Software Developer Analyst II",
       "website": "https://www.northropgrumman.com.com/",
-      "startDate": "2008",
-      "endDate": "2012",
+      "startDate": "2008-01-01",
+      "endDate": "2012-12-01",
       "summary": "Designed, Built and Maintained several enterprise environments including the MyNGC Enterprise Reverse Proxy, Enterprise Wiki, MyNGC SharePoint Portal, External PartnerConnect Microsoft TMG/UAG.",
       "highlights": [
         "FIPS 140-2 compliant custom compiled Apache Reverse Proxies.",
@@ -117,15 +116,15 @@
       "institution": "University of West Florida",
       "area": "Information Technology",
       "studyType": "Bachelor",
-      "startDate": "2003",
-      "endDate": "2007"
+      "startDate": "2003-08-01",
+      "endDate": "2007-12-01"
     },
     {
       "institution": "University of West Florida",
       "area": "General Studies",
       "studyType": "Associate",
-      "startDate": "2003",
-      "endDate": "2005"
+      "startDate": "2013-08-01",
+      "endDate": "2015-05-01"
     }
   ],
   "skills": [
