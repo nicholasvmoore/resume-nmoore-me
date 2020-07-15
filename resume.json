@@ -39,10 +39,29 @@
   },
   "work": [
     {
+      "company": "Guidewire Software",
+      "position": "Cloud Operations Engineer",
+      "website": "http://www.guidewire.com",
+      "startDate": "2015-02-15",
+      "summary": "Support the design, implementation, and on-going maintenance of our Cloud Solutions.",
+      "highlights": [
+        "Monitor and Support customer CI/CD environment ensuring that the infrastructure is available and running",
+        "Investigate, troubleshoot and resolve any issues that impact the customer ability to successfully execute CI/CD functions",
+        "Hands-on build and manage customer development and performance-testing environments in the cloud",
+        "Work with stakeholders to drive scope definition, specifications, and architecture of Deployment Tools & Processes for AWS Cloud",
+        "Work closely with engineers, test engineers, product owners and management to understand requirements, define and implement best practices and standards around DevOps and Service Resilience",
+        "Measurement, optimization, and tuning of system performance and ensuring that systems will run reliably and are highly available in a 24/7 production environment",
+        "Define, implement and document operational processes and procedures, with periodic review for efficiency and improvement",
+        "Manage complex projects from inception to completion",
+        "Participate in 24x7 on-call rotation monitoring systems for meeting defined SLAs"
+      ]
+    },
+    {
       "company": "Livingston International",
       "position": "Sr. Systems Architect",
       "website": "http://www.livingstonintl.com",
       "startDate": "2015-01-01",
+      "endDate": "2020-02-14",
       "summary": "Provide architectural & technical guidance on AWS Cloud & On Premises environments for enterprise.",
       "highlights": [
         "Created Livingston International's AWS cloud footprint growing to >20 accounts across 4 regions.",
