@@ -3,5 +3,5 @@ steps:
   args: ['./build.sh']
 artifacts:
   objects:
-    location: 'gs://resume.moorenix.com/'
+    location: 'gs://resume.nmoore.me/'
     paths: ['/workspace/index.html']
