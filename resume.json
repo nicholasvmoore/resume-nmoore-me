@@ -40,16 +40,30 @@
   "work": [
     {
       "company": "Guidewire Software",
+      "position": "DevOps Engineer",
+      "website": "http://www.guidewire.com",
+      "startDate": "2021-09-01",
+      "summary": "Support the design, implementation, and on-going maintenance of our Cloud Solutions.",
+      "highlights": [
+        "Work with stakeholders to drive scope definition, specifications, and architecture of Deployment Tools & Processes for Guidewire Cloud",
+        "Work closely with engineers, test engineers, product owners and management to understand requirements, define and implement best practices and standards around DevOps and Service Availability",
+        "Develop new CI/CD build chains using Teamcity & Atlassian Jira",
+        "Create customized Cloudhealth reports to track InsuranceNow spend and identify any budgetary issues",
+        "Perform monthly reviews of Cloudhealth reports to identify services which may need right sizing or candidates for optimizations",
+        "Participate in 24x7 on-call rotation monitoring systems for meeting defined SLAs"
+      ]
+    },
+    {
+      "company": "Guidewire Software",
       "position": "Cloud Operations Engineer",
       "website": "http://www.guidewire.com",
       "startDate": "2020-03-15",
+      "endDate": "2021-09-01",
       "summary": "Support the design, implementation, and on-going maintenance of our Cloud Solutions.",
       "highlights": [
-        "Monitor and Support customer CI/CD environment ensuring that the infrastructure is available and running",
-        "Investigate, troubleshoot and resolve any issues that impact the customer ability to successfully execute CI/CD functions",
+        "Architect and Design the next generation Guidewire Cloud for InsuranceNow utilizing AWS EKS, Terraform & Teamcity",
+        "Investigate, troubleshoot and resolve any issues that impact the customer's ability to successfully execute CI/CD build chains",
         "Hands-on build and manage customer development and performance-testing environments in the cloud",
-        "Work with stakeholders to drive scope definition, specifications, and architecture of Deployment Tools & Processes for AWS Cloud",
-        "Work closely with engineers, test engineers, product owners and management to understand requirements, define and implement best practices and standards around DevOps and Service Resilience",
         "Measurement, optimization, and tuning of system performance and ensuring that systems will run reliably and are highly available in a 24/7 production environment",
         "Define, implement and document operational processes and procedures, with periodic review for efficiency and improvement",
         "Manage complex projects from inception to completion",
@@ -155,6 +169,8 @@
         "Packer",
         "Terraform",
         "Ansible",
+        "Atlassian Jira",
+        "Atlassian Confluence",
         "Docker",
         "ectD",
         "Flannel",
@@ -162,7 +178,8 @@
         "GlusterFS",
         "Kerberos",
         "Grafana",
-        "Zabbix",
+        "Datadog",
+        "Teamcity",
         "Zerto",
         "PowerShell"
       ]
@@ -172,6 +189,8 @@
       "level": "Master",
       "keywords": [
         "AWS:IAM",
+        "AWS:EKS",
+        "AWS:Cloudwatch",
         "AWS:CloudFormation",
         "AWS:VPC",
         "AWS:TransitGateway",
@@ -188,7 +207,12 @@
         "AWS:DirectConnect",
         "AWS:ElasticSearchService",
         "AWS:EFS",
-        "cfn-init"
+        "cfn-init",
+        "GCP:CloudStorage",
+        "GCP:IAM",
+        "GCP:VPC",
+        "GCP:CloudDNS",
+        "Cloudhealth"
       ]
     },
     {
@@ -198,7 +222,8 @@
         "Jenkins",
         "AWS:CodeBuild",
         "AWS:CodePipeline",
-        "AWS:CodeCommit"
+        "AWS:CodeCommit",
+        "GCP:CloudBuild"
       ]
     },
     {
