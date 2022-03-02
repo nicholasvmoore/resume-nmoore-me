@@ -7,3 +7,4 @@ npm install -g resume-cli jsonresume-theme-elegant
 npm install resume-cli jsonresume-theme-elegant
 
 resume export /workspace/index.html --theme elegant
+resume export /workspace/resume-nmoore.pdf --theme elegant
